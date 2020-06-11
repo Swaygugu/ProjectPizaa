@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+  </head>
+
+  <body>
+      <h1>Worakamon Pinnark</h1>
+      <form >
+          <table border="1">
+            <tr>
+                <td align="right">Name :</td>  
+                <td align = "left"><input type="text" name="name"></input></td> 
+            </tr> 
+            <tr> 
+                <td align="right">Pizza :   </td>
+                    <td align="left">  
+                        <input type="radio" name="topping" value="supreme">Supreme</input><br>
+                        <input type="radio" name="topping" value="vegetarian">Vegetarian</input><br>
+                        <input type="radio" name="topping" value="hawaiian">Hawaiian</input>
+                    </td>
+             </tr>
+            <tr> 
+                <td align="right">Pizza Sauce  : </td>
+                    <td align="left"><select name="sauce">
+                        <option value="tomato">Tomato</option>
+                        <option value="barbeque">Barbeque</option>
+                        <option value="mayonnaise">Mayonnaise</option>
+                        <option value="secret">Secret Sauce</option>
+                         </select>
+               </td> 
+            </tr>
+    
+            <tr> <td align="right"> Optional Extras  :   </td>
+                 <td align="left">
+                    <input type="checkbox" name="extra_cheese" value="1">Extra Cheese</input>
+                    <input type="checkbox" name="gluten_free" value="1">Gluten Free Base</input></td> 
+            </tr>
+
+        <tr> 
+            <td align="left" colspan="2"> Delivery Instructions  :  </td></tr>
+            
+           <tr> <td align="left" colspan="2"><textarea name="delivery" cols="50%" rows="4"></textarea></td> </tr>
+
+        <tr>    
+            <td align="right"><input type="submit" value="Send my Order"></td> 
+        
+        </tr>
+        </table>
+      </form>
+  </body>
+</html>
